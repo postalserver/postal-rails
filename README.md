@@ -4,7 +4,7 @@ Postal for Rails allows you to integrate Postal directly into Action Mailer in a
 
 ## Installation
 
-Add the `postal` gem to your Gemfile and run `bundle install` to install it.
+Add the `postal-rails` gem to your Gemfile and run `bundle install` to install it.
 
 ```ruby
 gem 'postal-rails', '~> 1.0'
