@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.authors       = ["Adam Cooke"]
   s.email         = ["me@adamcooke.io"]
   s.licenses      = ['MIT']
-  s.add_dependency "postal", ">= 0.0.2", "< 2.0"
+  s.add_dependency "postal-ruby", ">= 0.0.2", "< 2.0"
 end
