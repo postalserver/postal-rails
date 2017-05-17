@@ -25,7 +25,7 @@ You also need to set the `POSTAL_KEY` environment variable to include key and `P
 Alternatively, you can configure it as shown below in your environment configuration file along with the `delivery_method`.
 
 ```ruby
-config.action_mailer.postal_settings = {:host => "https://postal.yourdomainc.com", :server_key => "xxxxx"}
+config.action_mailer.postal_settings = {:host => "postal.yourdomainc.com", :server_key => "xxxxx"}
 ```
 
 That's it! Send an email to test everything is working as you'd expect. Remember, if you have `raise_delivery_errors` set to false you might not see any errors. Use `deliver!` when running your tests so any exceptions are raised.
